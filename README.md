@@ -20,27 +20,3 @@ Aplikasi sederhana PHP untuk menampilkan nilai mata kuliah, nilai huruf, bobot, 
 
 Rentang ini adalah asumsi implementasi karena instruksi hanya menentukan huruf dan bobot, tidak menentukan batas rentang angka.
 
-## Cara menjalankan di localhost (XAMPP)
-1. Ekstrak folder `latihan_individu` ke `C:\xampp\htdocs\`.
-2. Jalankan Apache melalui XAMPP Control Panel.
-3. Buka `http://localhost/latihan_individu/` di browser.
-4. Pastikan tabel tampil dan baris dengan status MENGULANG berwarna merah.
-
-## Cara mengunggah ke GitHub
-1. Buat repository baru bernama `latihan-individu`.
-2. Buka terminal di folder project.
-3. Jalankan perintah berikut (ganti URL dengan URL repository milik sendiri):
-   ```bash
-   git init
-   git add .
-   git commit -m "Menyelesaikan latihan individu nilai mata kuliah"
-   git branch -M main
-   git remote add origin https://github.com/USERNAME/latihan-individu.git
-   git push -u origin main
-   ```
-4. Ganti `USERNAME` dengan username GitHub sendiri dan pastikan repository sudah berisi `index.php`, `style.css`, dan `README.md`.
-
-## Sebelum dikumpulkan
-- Ganti data mata kuliah contoh bila diperlukan.
-- Ambil screenshot hasil dari `http://localhost/latihan_individu/`.
-- Masukkan URL repository GitHub yang benar dan screenshot asli localhost ke dokumen Word.
